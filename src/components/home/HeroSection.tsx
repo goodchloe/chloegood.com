@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
             <img
               src="/images/affectionate-couple-garden.jpg"
               alt="Chloe Good and Spencer Jacobson together in a leafy garden"
-              className="w-44 h-44 md:w-56 md:h-56 rounded-full object-cover shadow-lg"
+              className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover shadow-lg"
             />
           </div>
           
