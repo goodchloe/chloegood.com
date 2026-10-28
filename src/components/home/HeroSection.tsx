@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionWrapper from '@/components/SectionWrapper';
 import CallToActionButton from '@/components/CallToActionButton';
-import chloePhoto from '@/assets/chloe-hero.jpg';
 import heroBg from '@/assets/hero-watercolor.jpg';
 
 
