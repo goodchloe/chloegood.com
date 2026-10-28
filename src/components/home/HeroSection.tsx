@@ -18,22 +18,13 @@ const HeroSection: React.FC = () => {
             January 20 - June 9, 2027
           </p>
           
-          {/* Photos of facilitators */}
-          <div className="flex justify-center items-center gap-6 mb-6">
-            <div className="flex flex-col items-center">
-              <img 
-                src={chloePhoto}
-                alt="Chloe Good" 
-                className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover shadow-lg"
-              />
-            </div>
-            <div className="flex flex-col items-center">
-              <img 
-                src="/images/spencer-jacobson.png" 
-                alt="Spencer Jacobson" 
-                className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover shadow-lg"
-              />
-            </div>
+          {/* Photo of Chloe & Spencer together */}
+          <div className="flex justify-center items-center mb-6">
+            <img
+              src="/images/affectionate-couple-garden.jpg"
+              alt="Chloe Good and Spencer Jacobson together in a leafy garden"
+              className="w-32 h-32 md:w-36 md:h-36 rounded-full object-cover shadow-lg"
+            />
           </div>
           
           <p className="text-lg md:text-xl mb-8" style={{ color: '#3A4A2E' }}>
