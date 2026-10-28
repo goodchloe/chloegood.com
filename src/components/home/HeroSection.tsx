@@ -7,7 +7,7 @@ import heroBg from '@/assets/hero-watercolor.jpg';
 const HeroSection: React.FC = () => {
   return (
     <SectionWrapper className="!py-0">
-      <div className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center text-center rounded-lg overflow-hidden">
+      <div className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center text-center organic-card overflow-hidden">
         <img src={heroBg} alt="Watercolor mountains in earthy tones" className="absolute inset-0 w-full h-full object-cover" />
         <div className="relative z-10 p-8 max-w-4xl mx-auto" style={{ color: '#3A4A2E' }}>
           <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold mb-2 leading-tight animate-fade-in">Attachment Alchemy</h1>

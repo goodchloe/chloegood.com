@@ -10,7 +10,7 @@ const TestimonialsSection: React.FC = () => {
       {/* YouTube Videos */}
       <div className="flex flex-col md:flex-row justify-center gap-12 mb-10">
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-xs aspect-[9/16] rounded-lg overflow-hidden shadow-lg">
+          <div className="w-full max-w-xs aspect-[9/16] organic-photo-soft overflow-hidden soft-warm-shadow">
             <iframe
               src="https://www.youtube.com/embed/x-T9smce_d8"
               title="Participant Testimonial - Sophie"
@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
           <p className="mt-3 text-lg font-semibold text-foreground">Sophie</p>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-xs aspect-[9/16] rounded-lg overflow-hidden shadow-lg">
+          <div className="w-full max-w-xs aspect-[9/16] organic-photo-soft overflow-hidden soft-warm-shadow">
             <iframe
               src="https://www.youtube.com/embed/rZRBAK8776o"
               title="Participant Testimonial - Mark & Malia"
@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC = () => {
           <p className="mt-3 text-lg font-semibold text-foreground">Mark & Malia</p>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-xs aspect-[9/16] rounded-lg overflow-hidden shadow-lg">
+          <div className="w-full max-w-xs aspect-[9/16] organic-photo-soft overflow-hidden soft-warm-shadow">
             <iframe
               src="https://www.youtube.com/embed/H1vAhZ6O438"
               title="Participant Testimonial - Verenice"

@@ -18,7 +18,7 @@ const ContactPage: React.FC = () => {
 
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
         {/* Contact Form */}
-        <div className="bg-card p-8 rounded-lg shadow-xl">
+        <div className="bg-card p-8 organic-card soft-warm-shadow">
           <h2 className="text-2xl font-semibold text-foreground mb-6">Send a Message</h2>
           {/* Netlify form integration */}
           <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" className="space-y-6" action="/contact-success" // Optional: Define a success page
@@ -56,7 +56,7 @@ const ContactPage: React.FC = () => {
 
         {/* Contact Info & Discovery Call */}
         <div className="space-y-8">
-          <div className="bg-card p-8 rounded-lg shadow-xl">
+          <div className="bg-card p-8 organic-card soft-warm-shadow">
             <h2 className="text-2xl font-semibold text-foreground mb-6">Direct Contact</h2>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
@@ -81,7 +81,7 @@ const ContactPage: React.FC = () => {
             </div>
           </div>
 
-          <div id="contact-cta" className="bg-primary/10 p-8 rounded-lg shadow-xl text-center">
+          <div id="contact-cta" className="bg-primary/10 p-8 organic-card soft-warm-shadow text-center">
             <Calendar className="h-12 w-12 text-primary mx-auto mb-4" />
             <h2 className="text-2xl font-semibold text-foreground mb-4">Book a Free Discovery Call</h2>
             <p className="text-muted-foreground mb-6">

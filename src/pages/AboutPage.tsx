@@ -24,7 +24,7 @@ const AboutPage: React.FC = () => {
               <img 
                 src="/images/chloe-portrait.png" 
                 alt="Chloe Good, smiling warmly"
-                className="w-full md:w-1/3 h-auto rounded-lg shadow-md mb-6 md:mb-0 object-cover aspect-[3/4]"
+                className="w-full md:w-1/3 h-auto organic-photo-soft soft-warm-shadow mb-6 md:mb-0 object-cover aspect-[3/4]"
               />
               <div className="md:w-2/3">
                 <p>
@@ -62,7 +62,7 @@ const AboutPage: React.FC = () => {
               <img 
                 src="/images/chloe-arms-outstretched.png" 
                 alt="Chloe Good with arms outstretched, exuding joy and openness, embodying aliveness"
-                className="w-full md:w-1/3 h-auto rounded-lg shadow-md object-cover"
+                className="w-full md:w-1/3 h-auto organic-photo-soft soft-warm-shadow object-cover"
               />
             </div>
             <p className="mt-6"> {/* Increased margin-top for spacing */}

@@ -14,7 +14,7 @@ const OfferingsPage: React.FC = () => {
   return <>
       {/* Hero Section */}
       <SectionWrapper className="!py-0">
-        <div className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center text-center rounded-lg overflow-hidden">
+        <div className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center text-center organic-card overflow-hidden">
           <img src={heroImageUrl} alt="Serene natural landscape" className="absolute inset-0 w-full h-full object-cover filter brightness-50" />
           <div className="relative z-10 p-8 max-w-3xl mx-auto text-white">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in" style={{
@@ -54,7 +54,7 @@ const OfferingsPage: React.FC = () => {
       <SectionWrapper className="bg-secondary/30">
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto items-center">
           <div>
-            <img src="/images/golden-light-crystal-ball.png" alt="Woman in golden light holding a crystal ball" className="w-full h-80 object-cover rounded-lg shadow-lg" />
+            <img src="/images/golden-light-crystal-ball.png" alt="Woman in golden light holding a crystal ball" className="w-full h-80 object-cover organic-photo-soft soft-warm-shadow" />
           </div>
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold text-primary">Embracing Your Inner Light</h3>
@@ -73,7 +73,7 @@ const OfferingsPage: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-foreground">Are You Experiencing...?</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left text-lg text-muted-foreground">
-            {["Struggles in relationships, feeling misunderstood or disconnected?", "A sense of not feeling safe in your own body or with others?", "Feeling disconnected from your emotions or physical sensations?", "A cycle of anxiety, depression, or overwhelm that therapy hasn't fully resolved?", "Tired of traditional talk therapy that doesn't seem to create lasting change?"].map((item, index) => <li key={index} className="flex items-start space-x-3 p-4 bg-card rounded-md shadow">
+            {["Struggles in relationships, feeling misunderstood or disconnected?", "A sense of not feeling safe in your own body or with others?", "Feeling disconnected from your emotions or physical sensations?", "A cycle of anxiety, depression, or overwhelm that therapy hasn't fully resolved?", "Tired of traditional talk therapy that doesn't seem to create lasting change?"].map((item, index) => <li key={index} className="flex items-start space-x-3 p-4 bg-card rounded-2xl soft-warm-shadow">
                 <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                 <span>{item}</span>
               </li>)}
@@ -95,7 +95,7 @@ const OfferingsPage: React.FC = () => {
             </p>
           </div>
           <div className="order-1 md:order-2">
-            <img src="/images/hands-connecting.png" alt="Hands connecting in support" className="w-full h-80 object-cover rounded-lg shadow-lg" />
+            <img src="/images/hands-connecting.png" alt="Hands connecting in support" className="w-full h-80 object-cover organic-photo-soft soft-warm-shadow" />
           </div>
         </div>
       </SectionWrapper>
@@ -133,7 +133,7 @@ const OfferingsPage: React.FC = () => {
       </SectionWrapper>
 
       {/* Introduction to 1-on-1 Coaching */}
-      <SectionWrapper className="bg-muted/30 rounded-lg">
+      <SectionWrapper className="bg-muted/30 organic-card">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-foreground">Personalized 1-on-1 Somatic Coaching</h2>
           <p className="text-lg text-muted-foreground mb-6">
@@ -147,7 +147,7 @@ const OfferingsPage: React.FC = () => {
 
       {/* Newsletter Signup */}
       <SectionWrapper id="contact-cta">
-        <div className="max-w-xl mx-auto bg-card p-8 md:p-10 rounded-lg shadow-xl text-center">
+        <div className="max-w-xl mx-auto bg-card p-8 md:p-10 organic-card soft-warm-shadow text-center">
           <h2 className="text-2xl md:text-3xl font-semibold mb-3 text-primary">Stay Connected & Inspired</h2>
           <p className="text-muted-foreground mb-6">
             Receive insights, resources, and updates on upcoming programs and offerings directly to your inbox.

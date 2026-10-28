@@ -41,7 +41,7 @@ const CoachingPage: React.FC = () => {
       {/* Transformation Image Section */}
       <SectionWrapper>
         <div className="text-center max-w-4xl mx-auto">
-          <img src="/images/coaching-crystal-ball.png" alt="Woman holding a crystal ball in golden light" className="w-full max-w-2xl mx-auto h-96 object-cover rounded-lg shadow-xl mb-8" />
+          <img src="/images/coaching-crystal-ball.png" alt="Woman holding a crystal ball in golden light" className="w-full max-w-2xl mx-auto h-96 object-cover organic-card soft-warm-shadow mb-8" />
           <h3 className="text-2xl font-semibold text-primary mb-4">Clarity Through Embodied Presence</h3>
           <p className="text-lg text-muted-foreground">
             When we cultivate safety in our nervous system and presence in our body, clarity naturally emerges. 
@@ -97,7 +97,7 @@ const CoachingPage: React.FC = () => {
       <SectionWrapper className="bg-secondary/30">
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto items-center">
           <div>
-            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Forest path with sunlight streaming through trees" className="w-full h-80 object-cover rounded-lg shadow-lg" />
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Forest path with sunlight streaming through trees" className="w-full h-80 object-cover organic-photo-soft soft-warm-shadow" />
           </div>
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold text-primary">Healing in Nature's Embrace</h3>
