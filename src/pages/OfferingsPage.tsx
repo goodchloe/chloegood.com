@@ -133,7 +133,7 @@ const OfferingsPage: React.FC = () => {
       </SectionWrapper>
 
       {/* Introduction to 1-on-1 Coaching */}
-      <SectionWrapper className="bg-muted/30 rounded-lg">
+      <SectionWrapper className="bg-muted/30 organic-card">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-foreground">Personalized 1-on-1 Somatic Coaching</h2>
           <p className="text-lg text-muted-foreground mb-6">
