@@ -10,7 +10,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-4" style={{ color: '#3A4A2E' }}>Inside Attachment Alchemy</h2>
         <p className="text-xl text-center mb-10" style={{ color: '#3A4A2E' }}>5 Months from January 20 - June 9, 2027</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <Card className="organic-card soft-warm-shadow bg-white/90">
+          <Card className="organic-card soft-warm-shadow bg-white/60 watercolor-blur">
             <CardHeader className="text-center">
               <CardTitle className="text-lg text-primary">Four Immersions</CardTitle>
             </CardHeader>
@@ -50,7 +50,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
               <p className="text-muted-foreground text-center mt-1 text-sm">**Some dates subject to change with ample notice</p>
             </CardContent>
           </Card>
-          <Card className="organic-card soft-warm-shadow bg-white/90">
+          <Card className="organic-card soft-warm-shadow bg-white/60 watercolor-blur">
             <CardHeader className="text-center">
               <CardTitle className="text-lg text-primary">1:1 Coaching</CardTitle>
             </CardHeader>
@@ -95,7 +95,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
           </Card>
         </div>
         <div className="text-center mt-8">
-          <Card className="organic-card soft-warm-shadow bg-white/90 inline-block">
+          <Card className="organic-card soft-warm-shadow bg-white/60 watercolor-blur inline-block">
             <CardContent className="p-6">
               <CardTitle className="text-lg text-primary mb-2">Supportive Community</CardTitle>
               <p className="text-muted-foreground">Deep, loving, supportive, intelligent peers</p>
