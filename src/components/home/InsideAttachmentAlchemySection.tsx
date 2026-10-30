@@ -32,6 +32,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
                 </li>
               </ul>
               <p className="text-muted-foreground text-center mt-4 text-sm">*Food & Lodging not included in course cost</p>
+              <p className="text-muted-foreground text-center mt-1 text-sm">**Some dates subject to change with ample notice</p>
             </CardContent>
           </Card>
           <Card className="organic-card soft-warm-shadow bg-white/30 watercolor-blur md:col-span-1 lg:col-span-3">
@@ -55,7 +56,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
                   </ul>
                 </li>
               </ul>
-              <p className="text-muted-foreground text-center mt-4 text-sm">**Some dates subject to change with ample notice</p>
+              <p className="text-muted-foreground text-center mt-4 text-sm">*Some dates subject to change with ample notice</p>
             </CardContent>
           </Card>
           <Card className="organic-card soft-warm-shadow bg-white/30 watercolor-blur lg:col-span-2">
