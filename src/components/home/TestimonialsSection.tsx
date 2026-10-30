@@ -48,7 +48,7 @@ const TestimonialsSection: React.FC = () => {
       </div>
 
       <div className="grid md:grid-cols-1 gap-8 max-w-4xl mx-auto">
-        <Card className="text-center bg-white/60 watercolor-blur">
+        <Card className="text-center bg-white/30 watercolor-blur">
           <CardContent className="p-8">
             <p className="text-lg text-muted-foreground mb-4 italic">
               "This was the most transformative workshop I have ever taken."
@@ -56,7 +56,7 @@ const TestimonialsSection: React.FC = () => {
             <p className="font-semibold text-primary">- J.D., Attachment Alchemy Participant</p>
           </CardContent>
         </Card>
-        <Card className="text-center bg-white/60 watercolor-blur">
+        <Card className="text-center bg-white/30 watercolor-blur">
           <CardContent className="p-8">
             <p className="text-lg text-muted-foreground mb-4 italic">
               "Chloe leads with an incredible combination of skill, deep love and compassion, and so much joy. Just being in her presence and having her as your cheerleader and fierce ally throughout the course will up-level your life!"
@@ -64,7 +64,7 @@ const TestimonialsSection: React.FC = () => {
             <p className="font-semibold text-primary">- J.E., Attachment Alchemy Participant</p>
           </CardContent>
         </Card>
-        <Card className="text-center bg-white/60 watercolor-blur">
+        <Card className="text-center bg-white/30 watercolor-blur">
           <CardContent className="p-8">
             <p className="text-lg text-muted-foreground mb-4 italic">
               "I can honestly say I could have paid 10x what they charge and it still would have been worth it."
@@ -72,7 +72,7 @@ const TestimonialsSection: React.FC = () => {
             <p className="font-semibold text-primary">- C.S., CEO Tech Startup</p>
           </CardContent>
         </Card>
-        <Card className="text-center bg-white/60 watercolor-blur">
+        <Card className="text-center bg-white/30 watercolor-blur">
           <CardContent className="p-8">
             <p className="text-lg text-muted-foreground mb-4 italic">
               "I felt so much trust in Spencer's facilitation that I was able to surrender and allow the container to truly hold me."

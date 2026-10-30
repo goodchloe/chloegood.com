@@ -9,7 +9,7 @@ const WhatYoullDiscoverSection: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 text-foreground">What You'll Discover</h2>
         <div className="space-y-6 text-lg text-muted-foreground">
-          <p className="text-center mb-8">
+          <p className="text-left mb-8">
             What does it mean to open your nervous system to love, safety, and purpose—and let life move through you with clarity and power?
           </p>
           <div className="grid md:grid-cols-1 gap-6">
