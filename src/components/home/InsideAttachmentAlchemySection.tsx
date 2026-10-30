@@ -16,36 +16,36 @@ const InsideAttachmentAlchemySection: React.FC = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-center mb-3">Two 4-day in person retreats & Two Half Day Immersions Online and in Northern California</p>
-              <div className="grid md:grid-cols-2 gap-x-12 gap-y-2 mt-3">
-                <ul className="text-muted-foreground text-center list-disc list-inside space-y-2">
+              <div className="flex flex-col md:flex-row justify-center gap-x-20 gap-y-2 mt-3">
+                <ul className="text-muted-foreground text-left list-disc pl-5 space-y-2">
                   <li>
                     Kickoff Half Day Immersion
-                    <ul className="list-[circle] list-inside mt-1 space-y-1">
+                    <ul className="list-[circle] pl-5 mt-1 space-y-1">
                       <li>January 23, 10a-2:30p</li>
                       <li>Online and in Person in N. California & Boulder</li>
                     </ul>
                   </li>
                   <li>
+                    Half Day Immersion
+                    <ul className="list-[circle] pl-5 mt-1 space-y-1">
+                      <li>May 22, 10a-2:30p</li>
+                      <li>Online and in Person in N. California & Boulder</li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul className="text-muted-foreground text-left list-disc pl-5 space-y-2 md:mt-0 mt-2">
+                  <li>
                     4 Day Immersion 1
-                    <ul className="list-[circle] list-inside mt-1 space-y-1">
+                    <ul className="list-[circle] pl-5 mt-1 space-y-1">
                       <li>Feb 10-14</li>
                       <li>Retreat Center in N. California</li>
                     </ul>
                   </li>
-                </ul>
-                <ul className="text-muted-foreground text-center list-disc list-inside space-y-2 md:mt-0 mt-2">
                   <li>
                     4 Day Immersion 2
-                    <ul className="list-[circle] list-inside mt-1 space-y-1">
+                    <ul className="list-[circle] pl-5 mt-1 space-y-1">
                       <li>April 14-18</li>
                       <li>Retreat Center in N. California</li>
-                    </ul>
-                  </li>
-                  <li>
-                    Half Day Immersion
-                    <ul className="list-[circle] list-inside mt-1 space-y-1">
-                      <li>May 22, 10a-2:30p</li>
-                      <li>Online and in Person in N. California & Boulder</li>
                     </ul>
                   </li>
                 </ul>
