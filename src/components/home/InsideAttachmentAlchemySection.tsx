@@ -12,7 +12,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 max-w-6xl mx-auto">
           <Card className="organic-card soft-warm-shadow bg-white/30 watercolor-blur md:col-span-1 lg:col-span-3">
             <CardHeader className="text-center">
-              <CardTitle className="text-lg text-primary">In Person 4-Day Immersions</CardTitle>
+              <CardTitle className="text-lg text-primary">Two In Person 4-Day Immersions</CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="text-muted-foreground text-left list-disc pl-5 space-y-2">
