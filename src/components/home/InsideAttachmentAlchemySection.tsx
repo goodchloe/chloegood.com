@@ -17,7 +17,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
             <CardContent>
               <ul className="text-muted-foreground text-left list-disc pl-5 space-y-2">
                 <li>
-                  4 Day Immersion 1
+                  Initiation | Immersion 1
                   <ul className="list-[circle] pl-5 mt-1 space-y-1">
                     <li>Feb 10-14</li>
                     <li>Retreat Center in N. California</li>
