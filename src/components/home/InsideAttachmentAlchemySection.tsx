@@ -9,8 +9,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
       <div className="relative w-full px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-semibold text-center mb-4" style={{ color: '#3A4A2E' }}>Inside Attachment Alchemy</h2>
         <p className="text-xl text-center mb-10" style={{ color: '#3A4A2E' }}>5 Months from January 20 - June 9, 2027</p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <Card className="organic-card soft-warm-shadow bg-white/30 watercolor-blur">
+          <Card className="organic-card soft-warm-shadow bg-white/30 watercolor-blur md:col-span-2 lg:col-span-3">
             <CardHeader className="text-center">
               <CardTitle className="text-lg text-primary">Four Immersions</CardTitle>
             </CardHeader>
