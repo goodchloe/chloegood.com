@@ -69,7 +69,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
               </ul>
             </CardContent>
           </Card>
-          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur">
+          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur lg:col-span-2">
             <CardHeader>
               <CardTitle className="text-lg text-primary">Live Group Sessions</CardTitle>
             </CardHeader>
@@ -77,7 +77,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
               <p className="text-muted-foreground">Weekly sessions with live teaching, coaching and practices, alternating with peer led small group practice pod meetings for deeper integration and support.</p>
             </CardContent>
           </Card>
-          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur">
+          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur lg:col-span-2">
             <CardHeader>
               <CardTitle className="text-lg text-primary">Peer Counseling Practice Partners</CardTitle>
             </CardHeader>
@@ -85,7 +85,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
               <p className="text-muted-foreground">Weekly practice with peers to deepen secure attachment and work through blocks together</p>
             </CardContent>
           </Card>
-          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur">
+          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur lg:col-span-2">
             <CardHeader>
               <CardTitle className="text-lg text-primary">Recorded Resources</CardTitle>
             </CardHeader>
@@ -93,7 +93,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
               <p className="text-muted-foreground">Meditations and tailored assignments to integrate learnings</p>
             </CardContent>
           </Card>
-          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur">
+          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur lg:col-span-2">
             <CardHeader>
               <CardTitle className="text-lg text-primary">Movement & Energy Practices</CardTitle>
             </CardHeader>
@@ -101,7 +101,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
               <p className="text-muted-foreground">Practices to integrate transformations in your body and nervous system</p>
             </CardContent>
           </Card>
-          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur">
+          <Card className="organic-card soft-warm-shadow text-center bg-white/30 watercolor-blur lg:col-span-2">
             <CardHeader>
               <CardTitle className="text-lg text-primary">Supportive Community</CardTitle>
             </CardHeader>
