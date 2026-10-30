@@ -24,7 +24,7 @@ const InsideAttachmentAlchemySection: React.FC = () => {
                   </ul>
                 </li>
                 <li>
-                  4 Day Immersion 2
+                  Depth | Immersion 2
                   <ul className="list-[circle] pl-5 mt-1 space-y-1">
                     <li>April 14-18</li>
                     <li>Retreat Center in N. California</li>
