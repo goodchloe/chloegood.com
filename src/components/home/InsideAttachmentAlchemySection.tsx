@@ -41,14 +41,14 @@ const InsideAttachmentAlchemySection: React.FC = () => {
             <CardContent>
               <ul className="text-muted-foreground text-left list-disc pl-5 space-y-2">
                 <li>
-                  Kickoff Half Day Immersion
+                  Beginning | Half Day Immersion 1
                   <ul className="list-[circle] pl-5 mt-1 space-y-1">
                     <li>January 23, 10a-2:30p</li>
                     <li>Online and in Person in N. California & Boulder</li>
                   </ul>
                 </li>
                 <li>
-                  Half Day Immersion
+                  Completion | Half Day Immersion 2
                   <ul className="list-[circle] pl-5 mt-1 space-y-1">
                     <li>May 22, 10a-2:30p</li>
                     <li>Online and in Person in N. California & Boulder</li>
