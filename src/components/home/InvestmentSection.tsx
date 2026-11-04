@@ -11,7 +11,17 @@ const InvestmentSection: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-semibold mb-4" style={{ color: '#3A4A2E' }}>Investment</h2>
           <p className="text-xl mb-6" style={{ color: '#3A4A2E' }}>This is a significant investment in your transformation.</p>
           <Card className="organic-card soft-warm-shadow p-6 mb-8 bg-white/30 watercolor-blur">
-            <CardTitle className="text-primary mb-2 text-lg">Program Cost: Sliding scale $7000 - $10,000</CardTitle>
+            <p className="text-sm font-semibold tracking-[0.2em] uppercase mb-3" style={{ color: '#B5643D' }}>Program Cost</p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 mb-4">
+              <div>
+                <CardTitle className="text-primary text-2xl md:text-3xl">$8,000</CardTitle>
+                <p className="text-sm font-semibold tracking-[0.15em] uppercase mt-1" style={{ color: '#3A4A2E' }}>Regular</p>
+              </div>
+              <div>
+                <CardTitle className="text-2xl md:text-3xl" style={{ color: '#B5643D' }}>$7,000</CardTitle>
+                <p className="text-sm font-semibold tracking-[0.15em] uppercase mt-1" style={{ color: '#B5643D' }}>Early Bird</p>
+              </div>
+            </div>
             <CardDescription>Payment plans and partial scholarships available.</CardDescription>
             <p className="text-sm text-muted-foreground mt-2">*In person retreat food & lodging not included in course cost.</p>
             <p className="text-sm text-muted-foreground mt-1">**Some dates subject to change with ample notice.</p>
