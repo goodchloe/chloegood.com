@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>The Manmilk Institute — Nourishment Is Not Gendered</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#f8f3ea;--milk:#fffdf8;--ink:#2b2622;--muted:#776c62;--clay:#b8734f;--sage:#8a9a7b;--line:#e6dccd}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65;font-weight:300}
+  h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.15}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+  .logo{font-family:"Cormorant Garamond",serif;font-size:1.35rem;letter-spacing:.04em}
+  .logo span{color:var(--clay)}
+  .btn{display:inline-block;background:var(--ink);color:var(--milk);text-decoration:none;padding:15px 30px;border-radius:999px;font-weight:500;font-size:.95rem;letter-spacing:.02em;border:none;cursor:pointer;transition:transform .2s,background .2s}
+  .btn:hover{background:var(--clay);transform:translateY(-1px)}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink);padding:10px 20px;font-size:.85rem}
+  .hero{text-align:center;padding:80px 0 90px}
+  .eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;color:var(--clay);font-weight:600;margin-bottom:22px}
+  .hero h1{font-size:clamp(2.6rem,7vw,4.8rem);max-width:820px;margin:0 auto 26px}
+  .hero h1 em{color:var(--clay);font-weight:400}
+  .hero p.lede{font-size:1.15rem;color:var(--muted);max-width:600px;margin:0 auto 38px}
+  .note{font-size:.8rem;color:var(--muted);margin-top:16px}
+  .drop{width:64px;height:84px;margin:0 auto 34px;background:var(--milk);border:1px solid var(--line);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;transform:rotate(180deg);box-shadow:inset 0 -10px 20px rgba(184,115,79,.08)}
+  section{padding:80px 0}
+  .band{background:var(--milk);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .center{text-align:center}
+  h2{font-size:clamp(2rem,4.5vw,3rem);margin-bottom:20px}
+  .sub{color:var(--muted);max-width:620px;margin:0 auto 50px;font-size:1.05rem}
+  .grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .card{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:32px}
+  .band .card{background:var(--cream)}
+  .card .num{font-family:"Cormorant Garamond",serif;font-size:2.4rem;color:var(--clay);line-height:1}
+  .card h3{font-size:1.55rem;margin:12px 0 10px}
+  .card p{color:var(--muted);font-size:.96rem}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .split p{margin-bottom:16px;color:var(--muted);font-size:1.05rem}
+  .split p strong{color:var(--ink);font-weight:500}
+  .stat{font-family:"Cormorant Garamond",serif;font-size:5.5rem;color:var(--clay);line-height:1}
+  .stat-label{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;color:var(--muted)}
+  blockquote{background:var(--milk);border:1px solid var(--line);border-radius:18px;padding:32px;font-family:"Cormorant Garamond",serif;font-size:1.3rem;font-style:italic;line-height:1.45}
+  blockquote cite{display:block;margin-top:18px;font-family:Inter,sans-serif;font-style:normal;font-size:.82rem;color:var(--muted);letter-spacing:.03em}
+  .price{max-width:520px;margin:0 auto;background:var(--milk);border:1px solid var(--line);border-radius:24px;padding:48px 40px;text-align:center}
+  .price .amt{font-family:"Cormorant Garamond",serif;font-size:4rem;line-height:1}
+  .price .amt small{font-size:1.2rem;color:var(--muted)}
+  .price ul{list-style:none;text-align:left;margin:30px 0 34px}
+  .price li{padding:11px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+  .price li:before{content:"◦";color:var(--clay);margin-right:12px;font-weight:600}
+  .badge{display:inline-block;background:var(--sage);color:#fff;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:20px}
+  details{border-bottom:1px solid var(--line);padding:22px 0;max-width:720px;margin:0 auto}
+  summary{font-family:"Cormorant Garamond",serif;font-size:1.4rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between}
+  summary:after{content:"+";color:var(--clay)}
+  details[open] summary:after{content:"–"}
+  details p{color:var(--muted);margin-top:12px}
+  footer{padding:50px 0;text-align:center;font-size:.78rem;color:var(--muted)}
+  .modal{display:none;position:fixed;inset:0;background:rgba(43,38,34,.55);align-items:center;justify-content:center;padding:24px;z-index:10}
+  .modal.show{display:flex}
+  .modal-box{background:var(--milk);border-radius:22px;padding:44px 36px;max-width:440px;text-align:center}
+  .modal-box h3{font-size:2rem;margin-bottom:14px}
+  .modal-box p{color:var(--muted);margin-bottom:24px}
+  @media(max-width:760px){.split{grid-template-columns:1fr;gap:30px}section{padding:60px 0}.hero{padding:50px 0 60px}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <div class="logo">The Manmilk <span>Institute</span></div>
+    <button class="btn ghost" onclick="openModal()">Apply</button>
+  </nav>
+
+  <header class="hero">
+    <div class="drop"></div>
+    <div class="eyebrow">Now enrolling · Winter Cohort</div>
+    <h1>Nourishment is <em>not</em> gendered.</h1>
+    <p class="lede">A 12-week somatic training for men ready to reclaim the body's oldest act of care. Men have the tissue. They've always had the tissue. What they've lacked is permission.</p>
+    <button class="btn" onclick="openModal()">Begin Your Letdown</button>
+    <p class="note">Only 14 seats. We keep the circle small so every man feels held.</p>
+  </header>
+</div>
+
+<section class="band">
+  <div class="wrap split">
+    <div>
+      <div class="eyebrow">The Problem</div>
+      <h2>For thousands of years, men have been told to provide. Never to <em>produce</em>.</h2>
+    </div>
+    <div>
+      <p>Modern masculinity taught men to give money, protection and advice. It never taught them to give <strong>from the body</strong>.</p>
+      <p>The result is a generation of men who feel cut off from their own capacity to nurture. They hover beside the feeding, carry the diaper bag, ask "is there anything I can do?" and mean it.</p>
+      <p><strong>There is something you can do.</strong> It just takes 12 weeks and a willingness to soften.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <div class="eyebrow">The Method</div>
+    <h2>The Four Streams™</h2>
+    <p class="sub">Our proprietary curriculum blends attachment science, breathwork and ancestral wisdom into a path from guarded to generous.</p>
+    <div class="grid" style="text-align:left">
+      <div class="card"><div class="num">I</div><h3>Thaw</h3><p>Weeks 1–3. We locate decades of stored self-sufficiency in the chest and invite it to melt. Expect tears. Tears are a precursor fluid.</p></div>
+      <div class="card"><div class="num">II</div><h3>Attune</h3><p>Weeks 4–6. Daily partnered presence practice. You'll learn to sense hunger in others before they name it, and to stop solving it with a sandwich.</p></div>
+      <div class="card"><div class="num">III</div><h3>Summon</h3><p>Weeks 7–9. Guided visualization, warm compresses and the Ancestral Lullaby Circle. Many men report a tingling. We call this "the Knock."</p></div>
+      <div class="card"><div class="num">IV</div><h3>Flow</h3><p>Weeks 10–12. Integration, ritual and your Letdown Ceremony, held at a private retreat center with oat-milk lattes, out of respect.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap split">
+    <div class="center">
+      <div class="stat">83%</div>
+      <div class="stat-label">of graduates report feeling<br>"more emotionally available"*</div>
+    </div>
+    <div>
+      <div class="eyebrow">Outcomes</div>
+      <h2>Results vary. Presence doesn't.</h2>
+      <p>Some men leave with a few precious drops. Others leave with something rarer: an understanding of what it costs to sustain another human from your own reserves.</p>
+      <p>Either way, he will never again say "just pump extra" with a straight face.</p>
+      <p style="font-size:.8rem">*Self-reported, via a survey filled out while emotionally available.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <div class="eyebrow">Voices from the Circle</div>
+    <h2>Men who stayed soft.</h2>
+    <p class="sub">Names changed to protect the tender.</p>
+    <div class="grid" style="text-align:left">
+      <blockquote>"Week nine, during the Lullaby Circle, I felt the Knock. I called my mom from the parking lot. We hadn't talked in two years."<cite>— Derek, 38, software architect</cite></blockquote>
+      <blockquote>"I came in skeptical. I'm leaving with a shelf in the fridge my wife isn't allowed to touch."<cite>— Marcus, 44, contractor</cite></blockquote>
+      <blockquote>"I didn't produce anything. But for the first time, I understood why she's so tired. That was the milk."<cite>— Theo, 51, attorney</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="price">
+      <div class="badge">Founding Cohort</div>
+      <h3 style="font-size:1.8rem;margin-bottom:12px">The Full Letdown</h3>
+      <div class="amt">$2,400 <small>/ 12 weeks</small></div>
+      <ul>
+        <li>12 live somatic sessions with certified facilitators</li>
+        <li>The Four Streams™ workbook (printed on recycled muslin)</li>
+        <li>Weekend Letdown Ceremony retreat</li>
+        <li>Lifetime access to the Brotherhood of the Flow</li>
+        <li>Branded insulated tote</li>
+        <li>Sliding scale spots available</li>
+      </ul>
+      <button class="btn" style="width:100%" onclick="openModal()">Reserve My Seat</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <div class="eyebrow">Questions</div>
+    <h2>Frequently asked, gently answered.</h2>
+    <details><summary>Is this biologically possible?</summary><p>Men have mammary tissue, milk ducts and the hormone receptors to go with them. The rest is a conversation between the body and a culture that never asked it to try. We are reopening that conversation.</p></details>
+    <details><summary>What if nothing comes out?</summary><p>Then you'll have spent 12 weeks learning to be present with someone else's needs without fixing them. Most of our partners consider this the more impressive outcome.</p></details>
+    <details><summary>Do I need to be a father?</summary><p>No. Uncles, mentors, godfathers and men who simply sense they have more to give are all welcome.</p></details>
+    <details><summary>Is there a refund policy?</summary><p>We offer a full refund to any man who completes all 12 weeks and still believes breastfeeding is "basically free."</p></details>
+    <details><summary>Will this make me less of a man?</summary><p>It will make you more of a mammal.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    © 2026 The Manmilk Institute · Nourishment Is Not Gendered<br><br>
+    The Manmilk Institute is a work of satire. No program, no muslin, no Knock. Please don't try to induce lactation without a doctor.
+  </div>
+</footer>
+
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <h3>The circle is full.</h3>
+    <p>The Winter Cohort sold out in under four hours. Go hug the person who feeds your family.</p>
+    <button class="btn" onclick="closeModal()">I will</button>
+  </div>
+</div>
+
+<script>
+  function openModal(){document.getElementById('modal').classList.add('show')}
+  function closeModal(){document.getElementById('modal').classList.remove('show')}
+</script>
+</body>
+</html>
